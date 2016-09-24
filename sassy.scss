@@ -1,0 +1,116 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  .main {
+    background-color: #ffff80;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .iconSection {
+    background-color: #ffffe6;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    .iconContent {
+      width: 80%;
+      margin: 0 auto;
+      .icon {
+        width: 30%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+      }
+    }
+  }
+  //background-color: #ffffcc;
+  .locations {
+    background-color: #ffffb3;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    .localSection {
+      width: 80%;
+      margin: 0 auto;
+      .local {
+        padding: 1%;
+        display: inline-block;
+        width: 30%;
+        height: 250px;
+        vertical-align: top;
+        margin: 0;
+        h4 .dateTime {
+          display: inline-block;
+          margin: 0;
+        }
+        h3 .name {
+          display: inline-block;
+          margin: 0;
+        }
+        .address {
+          margin: 0;
+        }
+        .about {
+          margin: 0;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .donate {
+    background-color: #ffff99;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .companies {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 80%;
+    .compLogo {
+      display: inline-block;
+      img {
+        max-height: 60px;
+        padding: 5%;
+      }
+    }
+  }
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    .split {
+      width: 32%;
+      display: inline-block;
+      vertical-align: top;
+      p{
+        font-size: 12px;
+      }
+
+    }
+  }
+  .inline{
+    display: inline;
+  }
+  #myVideo {
+    width: 100%;
+    z-index: 0;
+    margin-top: -300px;
+  }
+  #logo {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding-top: 292px;
+  }
+  .blurb {
+    width: 80%;
+    margin: 5% auto 0;
+    padding-bottom: 5%;
+  }
+}

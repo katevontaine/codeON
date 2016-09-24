@@ -1,0 +1,89 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0; }
+  body a {
+    color: black;
+    text-decoration: none; }
+  body .main {
+    background-color: #ffff80;
+    padding: 0;
+    margin: 0 auto; }
+  body .iconSection {
+    background-color: #ffffe6;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%; }
+    body .iconSection .iconContent {
+      width: 80%;
+      margin: 0 auto; }
+      body .iconSection .iconContent .icon {
+        width: 30%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto; }
+  body .locations {
+    background-color: #ffffb3;
+    padding-bottom: 5%;
+    padding-top: 5%; }
+    body .locations .localSection {
+      width: 80%;
+      margin: 0 auto; }
+      body .locations .localSection .local {
+        padding: 1%;
+        display: inline-block;
+        width: 30%;
+        height: 250px;
+        vertical-align: top;
+        margin: 0; }
+        body .locations .localSection .local h4 .dateTime {
+          display: inline-block;
+          margin: 0; }
+        body .locations .localSection .local h3 .name {
+          display: inline-block;
+          margin: 0; }
+        body .locations .localSection .local .address {
+          margin: 0; }
+        body .locations .localSection .local .about {
+          margin: 0; }
+        body .locations .localSection .local p {
+          font-size: 12px; }
+  body .donate {
+    background-color: #ffff99;
+    padding-bottom: 5%;
+    padding-top: 5%; }
+  body .companies {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 80%; }
+    body .companies .compLogo {
+      display: inline-block; }
+      body .companies .compLogo img {
+        max-height: 60px;
+        padding: 5%; }
+  body .wrapper {
+    width: 80%;
+    margin: 0 auto; }
+    body .wrapper .split {
+      width: 32%;
+      display: inline-block;
+      vertical-align: top; }
+      body .wrapper .split p {
+        font-size: 12px; }
+  body .inline {
+    display: inline; }
+  body #myVideo {
+    width: 100%;
+    z-index: 0;
+    margin-top: -300px; }
+  body #logo {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding-top: 292px; }
+  body .blurb {
+    width: 80%;
+    margin: 5% auto 0;
+    padding-bottom: 5%; }
