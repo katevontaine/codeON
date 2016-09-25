@@ -33,15 +33,18 @@ body {
         padding: 1%;
         display: inline-block;
         width: 30%;
-        height: 250px;
         vertical-align: top;
         margin: 0; }
-        body .locations .localSection .local h4 .dateTime {
+        body .locations .localSection .local h4 {
+          display: inline-block;
+          margin-top: 1%;
+          margin-bottom: 1%;
+          font-style: italic; }
+        body .locations .localSection .local h3 {
           display: inline-block;
           margin: 0; }
-        body .locations .localSection .local h3 .name {
-          display: inline-block;
-          margin: 0; }
+        body .locations .localSection .local h5 {
+          font-weight: bold; }
         body .locations .localSection .local .address {
           margin: 0; }
         body .locations .localSection .local .about {
@@ -69,6 +72,11 @@ body {
       width: 32%;
       display: inline-block;
       vertical-align: top; }
+      body .wrapper .split h2 {
+        vertical-align: middle; }
+      body .wrapper .split i {
+        vertical-align: middle;
+        font-size: 24px; }
       body .wrapper .split p {
         font-size: 12px; }
   body .inline {
