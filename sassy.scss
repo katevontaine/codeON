@@ -48,7 +48,7 @@ body {
           font-style: italic;
         }
         h3 {
-          display: inline-block;
+          //display: inline-block;
           margin: 0;
         }
         h5{
@@ -139,4 +139,33 @@ body {
     margin: 5% auto 0;
     padding-bottom: 5%;
   }
+
+@media (max-width:1050px) and (min-width:1px){
+.locations {
+  .localSection {
+
+  .local{
+  display: block;
+  width: 100%;
+  h3{
+    display: inline-block;
+  }
+}
+}
+}
+.companies{
+  .compSection{
+    width: 90%;
+  }
+
+}
+.donate{
+  .wrapper{
+    .split{
+      width: 100%;
+    }
+  }
+}
+}
+
 }

@@ -40,7 +40,6 @@ body {
           margin-bottom: 1%;
           font-style: italic; }
         body .locations .localSection .local h3 {
-          display: inline-block;
           margin: 0; }
         body .locations .localSection .local h5 {
           font-weight: bold; }
@@ -104,3 +103,13 @@ body {
     width: 80%;
     margin: 5% auto 0;
     padding-bottom: 5%; }
+  @media (max-width: 1050px) and (min-width: 1px) {
+    body .locations .localSection .local {
+      display: block;
+      width: 100%; }
+      body .locations .localSection .local h3 {
+        display: inline-block; }
+    body .companies .compSection {
+      width: 90%; }
+    body .donate .wrapper .split {
+      width: 100%; } }
