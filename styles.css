@@ -15,12 +15,16 @@ body {
     padding-top: 5%; }
     body .iconSection .iconContent {
       width: 80%;
-      margin: 0 auto; }
-      body .iconSection .iconContent .icon {
-        width: 30%;
-        text-align: center;
-        display: inline-block;
-        margin: 0 auto; }
+      margin: 0 auto;
+      vertical-align: bottom; }
+      body .iconSection .iconContent .tech {
+        vertical-align: bottom; }
+        body .iconSection .iconContent .tech .icon {
+          width: 30%;
+          text-align: center;
+          display: inline-block;
+          margin: 0 auto;
+          vertical-align: top; }
   body .locations {
     background-color: #ffffb3;
     padding-bottom: 5%;
@@ -104,6 +108,13 @@ body {
     margin: 5% auto 0;
     padding-bottom: 5%; }
   @media (max-width: 1050px) and (min-width: 1px) {
+    body .main #logo {
+      padding-top: 20%;
+      max-height: 150px; }
+    body .main .blurb {
+      padding-top: 2%; }
+      body .main .blurb h2 {
+        font-size: 18px; }
     body .locations .localSection .local {
       display: block;
       width: 100%; }
@@ -112,4 +123,28 @@ body {
     body .companies .compSection {
       width: 90%; }
     body .donate .wrapper .split {
-      width: 100%; } }
+      width: 100%; }
+    body .iconSection .iconContent .icon h3 {
+      font-size: 14px; } }
+  @media (max-width: 700px) and (min-width: 1px) {
+    body .main #logo {
+      max-height: 120px; }
+    body .main .blurb {
+      padding-top: 3%; }
+    body .companies2 img {
+      max-height: auto; }
+    body .iconSection .iconContent .icon {
+      font-size: 15px; }
+      body .iconSection .iconContent .icon h3 {
+        font-size: 14px; } }
+  @media (max-width: 500px) {
+    body .main #logo {
+      max-height: 100px; }
+    body .main .blurb {
+      padding-top: 5%; }
+    body .companies2 img {
+      width: 100%; }
+    body .iconSection .iconContent .icon {
+      font-size: 12px; }
+      body .iconSection .iconContent .icon h3 {
+        font-size: 12px; } }

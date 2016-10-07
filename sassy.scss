@@ -18,12 +18,17 @@ body {
     .iconContent {
       width: 80%;
       margin: 0 auto;
+      vertical-align: bottom;
+    .tech{
+      vertical-align: bottom;
       .icon {
         width: 30%;
         text-align: center;
         display: inline-block;
         margin: 0 auto;
+        vertical-align: top
       }
+    }
     }
   }
   //background-color: #ffffcc;
@@ -40,7 +45,6 @@ body {
         width: 30%;
         vertical-align: top;
         margin: 0;
-
         h4 {
           display: inline-block;
           margin-top: 1%;
@@ -51,7 +55,7 @@ body {
           //display: inline-block;
           margin: 0;
         }
-        h5{
+        h5 {
           font-weight: bold;
         }
         .address {
@@ -71,12 +75,12 @@ body {
     padding-bottom: 5%;
     padding-top: 5%;
   }
-  .companies2{
+  .companies2 {
     padding-bottom: 1%;
     padding-top: 1%;
     margin: 0 auto;
     text-align: center;
-    img{
+    img {
       max-height: 375px;
     }
   }
@@ -85,19 +89,17 @@ body {
     padding-top: 5%;
     margin: 0 auto;
     text-align: center;
-
-  .compSection{
-    width: 80%;
-    margin: 0 auto;
-
-    .compLogo {
-      display: inline-block;
-      img {
-        max-height: 50px;
-        padding: 5%;
+    .compSection {
+      width: 80%;
+      margin: 0 auto;
+      .compLogo {
+        display: inline-block;
+        img {
+          max-height: 50px;
+          padding: 5%;
+        }
       }
     }
-  }
   }
   .wrapper {
     width: 80%;
@@ -106,20 +108,19 @@ body {
       width: 32%;
       display: inline-block;
       vertical-align: top;
-      h2{
+      h2 {
         vertical-align: middle;
       }
-      i{
+      i {
         vertical-align: middle;
         font-size: 24px;
       }
-      p{
+      p {
         font-size: 12px;
       }
-
     }
   }
-  .inline{
+  .inline {
     display: inline;
   }
   #myVideo {
@@ -139,33 +140,101 @@ body {
     margin: 5% auto 0;
     padding-bottom: 5%;
   }
-
-@media (max-width:1050px) and (min-width:1px){
-.locations {
-  .localSection {
-
-  .local{
-  display: block;
-  width: 100%;
-  h3{
-    display: inline-block;
-  }
-}
-}
-}
-.companies{
-  .compSection{
-    width: 90%;
-  }
-
-}
-.donate{
-  .wrapper{
-    .split{
-      width: 100%;
+  @media (max-width:1050px) and (min-width:1px) {
+    .main {
+      #logo {
+        padding-top: 20%;
+        max-height: 150px;
+      }
+      .blurb {
+        padding-top: 2%;
+        h2 {
+          font-size: 18px;
+        }
+      }
+    }
+    .locations {
+      .localSection {
+        .local {
+          display: block;
+          width: 100%;
+          h3 {
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .companies {
+      .compSection {
+        width: 90%;
+      }
+    }
+    .donate {
+      .wrapper {
+        .split {
+          width: 100%;
+        }
+      }
+    }
+    .iconSection {
+      .iconContent {
+        .icon {
+            h3{
+              font-size: 14px;
+            }
+        }
+      }
     }
   }
-}
-}
+  @media (max-width:700px) and (min-width:1px) {
+    .main {
+      #logo {
+        max-height: 120px;
+      }
 
+      .blurb {
+        padding-top: 3%;
+      }
+    }
+    .companies2 {
+      img {
+        max-height: auto;
+      }
+    }
+    .iconSection {
+      .iconContent {
+        .icon {
+            font-size: 15px;
+            h3{
+              font-size: 14px;
+            }
+        }
+      }
+    }
+  }
+  @media (max-width:500px) {
+    .main {
+      #logo {
+        max-height: 100px;
+      }
+      .blurb {
+        padding-top: 5%;
+      }
+    }
+    .companies2 {
+      img {
+        width: 100%;
+      }
+    }
+    .iconSection {
+      .iconContent {
+        .icon {
+            font-size: 12px;
+            h3{
+              font-size: 12px;
+            }
+        }
+      }
+    }
+  }
 }
